@@ -72,6 +72,27 @@ header {
   color:rgb(58, 232, 241);
 }
 
+.logo {
+  font-family: "Poppins", sans-serif; 
+  font-size: 1.4rem;                    
+  font-weight: 700;                   
+  color: #2c3e50;                 
+  letter-spacing: 2px;                
+  position: relative;
+  display: inline-block;
+  cursor: default;
+}
+
+.logo::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 40%;
+  height: 4px;
+  background: linear-gradient(90deg, #31f2cb, #040404);
+  border-radius: 2px;
+}
 
 
 .centerLink.active {
