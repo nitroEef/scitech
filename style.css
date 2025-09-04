@@ -173,7 +173,9 @@ h2, h3 {
   object-fit:contain;
 
   /* darken toward black */
-  filter: brightness(20%) contrast(90%);
+  filter: brightness(40%) contrast(100%);
+
+
 }
 
 
